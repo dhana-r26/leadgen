@@ -1,0 +1,337 @@
+header {
+    background-color: #272626;
+    position: sticky;
+    top:0px;
+    padding: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo {
+display:flex;
+}
+
+.nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 50px;
+    position:relative;
+    bottom:30px;
+    font-size: 20px;
+}
+
+a {
+    color: #c5a47e;
+    text-decoration: none;
+}
+
+.slider h1 {
+    border: 5px solid #c5a47e;
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+    width: 500px;
+    height: 280px;
+}
+.slider-container{
+    display:flex;
+    padding-top: 150px;
+    padding-left:150px;
+}
+.slider-button {
+padding:10px;
+
+}
+
+.slider {
+    background-image: url('images/travel-slider-01.jpg');
+    height: 120vh;
+    display: flex;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f1f1f;
+    padding-left: 150px;
+    padding-bottom:50px;
+    padding-top: 50px;
+}
+
+.about h2 {
+    color: #c5a47e;
+    font-size: 50px;
+}
+
+.about p {
+    color: #707070;
+}
+
+.about-img1 {
+    display: flex;
+    margin-left: 200px;
+    height: 500px;
+}
+
+.about button {
+    display: flex;
+    color: #c5a47e;
+    border: #c5a47e solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #272626;
+}
+.about-design{
+    display: flex;
+padding-left:100px;
+    background-color: #272626;
+    color:#707070;
+}
+.about-design-container{
+    display:flex;
+    gap:50px;
+}
+.about-columns
+{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+i {
+    color: #c5a47e;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+    padding-left:50px;
+    padding:50px;
+}
+
+.services h2 {
+    display: flex;
+    justify-content: center;
+    color: #c5a47e;
+    font-size: 50px;
+}
+
+.services p {
+    justify-content: center;
+    color: #707070;
+}
+
+.team {
+    display: flex;
+    padding-left: 140px;
+    padding-bottom: 100px; 
+    gap: 35px;
+  background-color: #1f1f1f
+}
+
+.team p {
+    color: #707070;
+    text-align: center;
+}
+
+.demo {
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.quote {
+    font-size: 30px;
+ color:white;
+}
+
+.demo1 {
+    display: flex;
+    padding:20px;
+    justify-content: center;
+    background-color: black;
+    height: 150px;
+}
+
+.demo2 button {
+    margin-top: 40px;
+    margin-left: 40px;
+    width:220px;
+    background-color: #c5a47e;
+    color:white;
+    border-radius: 20px;
+     padding:15px;
+}
+.project{
+    display: flex;
+    padding-bottom:50px;
+    justify-content: center;
+    background-color: #272626;
+}
+
+.project p {
+    justify-content: center;
+    color: #707070;
+}
+
+.project h2 {
+    display: flex;
+    justify-content: center;
+    color: #c5a47e;
+    font-size: 50px;
+}
+
+.project-img {
+    display: flex;
+    background-color: #272626;
+    padding:15px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.counts {
+    background-color: #272626;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 200px;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+.blog{
+    background-size: 110%;
+ background-image: url('images/fitness-about-bg.jpg');
+ background-repeat: no-repeat;
+}
+.blog-container{
+    background-color:#1f1f1f;
+    width:400px;
+    padding:50px;
+    margin-left: 200px;
+}
+.blog button{
+    background-color: #c5a47e;
+    padding:10px;
+    border-radius: 5px;
+}
+.blog h2{
+display: flex;
+    color: #c5a47e;
+    font-size: 50px;
+}
+.blog p{
+    color:#707070;
+}
+.client{
+    background-color:#272626;
+        display: flex;
+    justify-content: center;
+    padding:50px;
+}
+
+.client h2{
+    display: flex;
+    justify-content: center;
+    color: #c5a47e;
+    font-size: 50px;
+}
+.client p{
+    display:flex;
+        justify-content: center;
+    color: #707070;
+    font-size: 20px;
+}
+.client-logos{
+    background-color: #272626;
+display:flex;
+padding:20px;
+gap:25px;
+}
+.goal{
+    display:flex;
+    background-image: url('images/hero-bg4.jpg');
+    width:100%;
+    height:750px;
+}
+.goal-container{
+margin-left: 80px;
+margin-top:50px;
+padding:30px;
+}
+.goal-container h2{
+    font-size: 50px;
+    color: black;
+}
+.goal-container p{
+color: black;
+font-size:30px;
+}
+.goal-container button{
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    padding:20px;
+}
+.latest{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+    background-color:#1f1f1f;
+}
+.latest-container{
+ padding:50px;
+}
+.latest-container h2{
+    display: flex;
+    justify-content: center;
+    color: #c5a47e;
+    font-size: 50px;
+}
+.latest-container p{
+    display:flex;
+    justify-content: center;
+    color: #707070;
+    font-size: 20px;
+}
+.spa-blog{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.contact{
+    display:flex;
+    padding:20px;
+    justify-content: center;
+    background-color: #272626;
+}
+.contact-details{
+    color:#707070;
+    display:flex;
+        margin:80px;
+    justify-content: center;
+    gap:150px;
+}
+.form{
+display:flex;
+justify-content: center;
+background-color: #272626;
+    gap:40px;
+    padding-bottom: 80px;;
+}
+input{
+    height:40px;
+    width:500px;
+}
+footer{
+background-color: #1f1f1f;
+height:200px;
+justify-content: center;
+}
+.footer-container{
+    display:flex;
+    gap:220px;
+    padding:80px;
+}
